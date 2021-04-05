@@ -5,6 +5,7 @@
 <hr>
 <div align="center">
   <h3>Table of Contents</h3>
+  <div width="30%">
 
   1. [Overview](#Overview)
      1. [Description](#Description)
@@ -12,20 +13,22 @@
      3. [Why These?](#Why)
      4. [Applications Functionality](#Func)
   2. [Design](#Design)
-    1. [Logical Solution Design](#Logical)
-    2. [Physical Solution Design](#Physical)
-    3. [Database ER Diagram](#ER)
-    4. [UML Class Diagram Express](#Express)
-    5. [UML Class Diagram React](#React)
-    6. [UML Class Diagram Swift](#Swift)
-    7. [UML Sequence Diagram Apple oAuth](#AppleoAuth)
-    8. [UML Sequence Diagram Frontend calling Backend](#FtoB)
-    9. [UML Sequence Diagram Apple Watch calling Backend](#AtoB)
-    10. [Deployment Diagram](#Deployment)
-  3. [Final Product](#FinalProduct)
-     1. [Cloud Deployment](#CloudDeployment)
-     2. [New Technolgies](#NewTechnolgies)
-     3. [Challenges](#Challenges)
+     1. [Logical Solution Design](#Logical)
+     2. [Physical Solution Design](#Physical)
+     3. [Database ER Diagram](#ER)
+     4. [UML Class Diagram Express](#Express)
+     5. [UML Class Diagram React](#React)
+     6. [UML Class Diagram Swift](#Swift)
+     7. [UML Sequence Diagram Apple oAuth](#AppleoAuth)
+     8. [UML Sequence Diagram Frontend calling Backend](#FtoB)
+     9. [UML Sequence Diagram Apple Watch calling Backend](#AtoB)
+     10. [Deployment Diagram](#Deployment)
+ 1.  [Final Product](#FinalProduct)
+     1.  [Cloud Deployment](#CloudDeployment)
+     2.  [New Technolgies](#NewTechnolgies)
+     3.  [Challenges](#Challenges)
+   
+   </div>
 </div>
 <h1>Overview </h1> <a name="Overview"></a>
 <h3>Description</h3> <a name="Description"></a>
