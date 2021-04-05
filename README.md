@@ -79,7 +79,7 @@ The logical system design of the iHeart Rate project describes how the code will
 The front end of the web application will be deployed using Vercel and the backend is deployed with Heroku. The user will interact with the front end of that application that is written with the React framework. React makes a use of components and services in order to display and retrieve information to and from the user. The components for this application include home, main and sign in to create all the views of the application. These components make use of the user and heart rate service in order to create REST API calls to the back end using the library of Axios. Axios is a JavaScript library that has the ability to make HTTPS request. These HTTPS requests are handled by the Express application for the back end of the application. The routes within the express application can pick out the data form the HTTPS request and create models from the data. Within Express there are two models that are implemented one for the user object and another for the heart rate object. These models make it easy to send the object data between both business and data services as the Express application uses the DAO design pattern. The business services either, user business service or heart rate business service are created in order to transfer data from the routes to the data services. There are only two data services as there are only two object models that the application deals with. The data services connect the backend of the application to the MongoDB Database. The database that is running on the cloud using Mongodb Atlas which contains two collections: user and heart rate in order to hold documents of the object models. 
 The application has a similar path of data and code logic however the beginnings of the process are different. As the Apple Watch app cannot be deployed on a cloud platform it must be hosted from the Apple App Store. The front end and service layer code for the apple watch app will be done in Swift. Swift is a responsible for setting up the front end of the application and making the REST API calls to the back end. With the addition of the URL Session library provided by Swift the creation of HTTP requests is just as easy as Axios. The HTTP request is then sent to the Express application in AWS just as Axios did with the request from React. After the request reaches the Express application the data follows the same flow as the request from React did to reach MongoDB.
 <p align="center">
-  <img width="60%" src="Photo/LogicalSystemDesign.jpg">
+  <img width="80%" src="Photo/LogicalSystemDesign.jpg">
 </p>
 
 <h3>Physical Solution Design</h3>
@@ -92,12 +92,12 @@ The database running on Mongo starts out with shared ram and CPU cores as well a
 <h3>Database ER Diagram</h3>
 The diagram below displays the design documentation for the database. For this project the database will be hosted by MongoDB Atlas on the cloud. It will contain two collections: ‘User and ‘Heart_Rate’: 
 <p align="center">
-  <img width="60%" src="Photo/ErDiagram.png">
+  <img width="50%" src="Photo/ErDiagram.png">
 </p>
 <h3>Site Map</h3>
 The figure below shows the site map diagram for both the web and apple watch application. On the left, the web application, the website will begin the user at the home page which will have the Sign In With Apple button in order to take them to the graphical viewing page. On the right hand side the Apple Watch Application is displayed, this is a very simple application with two pages: the sign in page, and the start/stop button page.
 <p align="center">
-  <img width="60%" src="Photo/Sitemap.jpg">
+  <img width="40%" src="Photo/Sitemap.jpg">
 </p>
 <h3>UML Class Diagram Express</h3>
 The Diagram below display the class design of the back end of the application which is implemented by Express JS. Starting from the top of the diagram there are two models: user and heart rate. Both the user and heart rate properties are described above within the Database ER Diagram. The methods of both are listed below their corresponding properties and consist of the getters and setters of the properties. Moving down from both the models each has its own router functions which sets up the REST API service. These functions do not contain any properties, but each individual method is a separate REST API call. These calls used a library within Node called mongoose that makes it easy to connect with MongoDB. The object model is setup using mongoose in order to input the data in to the correct connection. Setting up the mongoose object with the connection string to the database, within the router will then persist the data into the database.
