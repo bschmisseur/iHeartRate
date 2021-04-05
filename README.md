@@ -12,25 +12,47 @@ The project consists of two main applications, an Apple Watch app and a website.
 <details>
   <summary><h3>Why These?</h3></summary>
   <b>React JS</b>
-   <blockquote>React is a light weight framework in JavaScript that is great for dynamic web pages. For the dashboard setup that iHeartRate includes the table, graph, average heart rate, and the last recorded. All of these components must be updated with the click of a button. With React this is done easily with its capabilities such as state and props.</blockquote>
+  <blockquote>
+    React is a light weight framework in JavaScript that is great for dynamic web pages. For the dashboard setup that iHeartRate includes the table, graph, average heart rate, and the last recorded. All of these components must be updated with the click of a button. With React this is done easily with its capabilities such as state and props.
+  </blockquote>
   <b>Express JS</b>
-   <blockquote>Just like React, Express JS is a very light weight application that is easily configured in order to create a REST API. Express also has many libraries that help with the implentation of cross platform request and other Dev Op principles. This means that it is very easy to implement logging and cross origin reasource sharing through middleware.</blockquote>
+  <blockquote>
+    Just like React, Express JS is a very light weight application that is easily configured in order to create a REST API. Express also has many libraries that help with the implentation of cross platform request and other Dev Op principles. This means that it is very easy to implement logging and cross origin reasource sharing through middleware.
+  </blockquote>
   <b>Node JS</b>
-   <blockquote>Node JS is used inorder to setup servers for both the frontend and backend of the application. WORDS</blockquote>
+  <blockquote>
+    Node JS is used inorder to setup servers for both the frontend and backend of the application. WORDS
+  </blockquote>
   <b>JavaScript</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>Swift</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>Visual Studio Code</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>xCode</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>MongoDB</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>Heroku</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>Vercel</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
   <b>Docker</b>
-   <blockquote>WORDS</blockquote>
+  <blockquote>
+    WORDS
+  </blockquote>
 </details>
