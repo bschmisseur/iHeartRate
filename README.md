@@ -2,8 +2,9 @@
 <p align="center">
   <img width="60%" src="Photo/Logo.png">
 </p>
-<div style="text-align: center">
-<h3>Table of Contents</h3>
+<hr>
+<div align="center">
+  <h3>Table of Contents</h3>
 </div>
 <h1>Overview </h1>
 <h3>Description</h3>
