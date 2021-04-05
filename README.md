@@ -173,9 +173,9 @@ Throught the production of this application there was various different problem 
 
 <h1>Documentation</h3> <a name="Documentation"></a>
 
-Project Proposal -<br/>
+Project Proposal -
 [Click Here](Documentation/Project-Proposal.pdf)
-Project Requirements -<br/>
+Project Requirements -
 [Click Here](Documentation/Project-Requirements.pdf)
-Design Spec -<br/>
+Design Spec -
 [Click Here](Documentation/Design-Spec.pdf)
