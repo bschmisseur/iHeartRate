@@ -7,7 +7,7 @@
 
   1. [Overview](#Overview)
      1. [Description](#Description)
-     2. [Technologies Used](#Technologies) //Func
+     2. [Technologies Used](#Technologies)
      3. [Why These?](#Why)
      4. [Applications Functionality](#Func)
   2. [Design](#Design)
