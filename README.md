@@ -171,6 +171,9 @@ Most all of the technologies that are used throughout this project were new or w
 Throught the production of this application there was various different problem that occured, some thorugh planning and other in the actual implementation of the application themselves. On of the bigges problems that was solved during planning was how to connect the user's apple watch to the user's account on the web application. This was fixed by the implmentation of signin with apple. This gave both applications the ability to have the same connection using Apple's oAuth services. 
 <h1>Documentation</h3> <a name="Documentation"></a>
 
-Project Proposal: [Click Here]("Documentation/Project Proposal.pdf")
-Project Requirements: [Click Here]("Documentation/Project Requirements.pdf")
-Design Spec: [Click Here]("Documentation/Design Spec.pdf")
+Project Proposal: 
+[Click Here]("Documentation/Project Proposal.pdf")
+Project Requirements: 
+[Click Here]("Documentation/Project Requirements.pdf")
+Design Spec: 
+[Click Here]("Documentation/Design Spec.pdf")
