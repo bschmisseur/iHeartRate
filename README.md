@@ -9,8 +9,9 @@ The project consists of two main applications, an Apple Watch app and a website.
 <p align="center">
   <img width="60%" src="Photo/Technologies.png">
 </p>
+<h3>Why These?</h3>
 <details>
-  <summary>Why These?</summary>
+  <summary>Click to Expand</summary>
   <b>React JS</b>
   <blockquote>
     React is a light weight framework in JavaScript that is great for dynamic web pages. For the dashboard setup that iHeartRate includes the table, graph, average heart rate, and the last recorded. All of these components must be updated with the click of a button. With React this is done easily with its capabilities such as state and props.
