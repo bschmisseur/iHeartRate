@@ -3,9 +3,7 @@
   <img width="60%" src="Photo/Logo.png">
 </p>
 <hr>
-<div align="center">
-  <h3>Table of Contents</h3>
-  <div width="30%">
+<h3>Table of Contents</h3>
 
   1. [Overview](#Overview)
      1. [Description](#Description)
@@ -28,7 +26,6 @@
      2.  [New Technolgies](#NewTechnolgies)
      3.  [Challenges](#Challenges)
    
-   </div>
 </div>
 <h1>Overview </h1> <a name="Overview"></a>
 <h3>Description</h3> <a name="Description"></a>
