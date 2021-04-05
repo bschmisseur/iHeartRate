@@ -97,7 +97,7 @@ The diagram below displays the design documentation for the database. For this p
 <h3>Site Map</h3>
 The figure below shows the site map diagram for both the web and apple watch application. On the left, the web application, the website will begin the user at the home page which will have the Sign In With Apple button in order to take them to the graphical viewing page. On the right hand side the Apple Watch Application is displayed, this is a very simple application with two pages: the sign in page, and the start/stop button page.
 <p align="center">
-  <img width="60%" src="Photo/Sitmap.jpg">
+  <img width="60%" src="Photo/Sitemap.jpg">
 </p>
 <h3>UML Class Diagram Express</h3>
 The Diagram below display the class design of the back end of the application which is implemented by Express JS. Starting from the top of the diagram there are two models: user and heart rate. Both the user and heart rate properties are described above within the Database ER Diagram. The methods of both are listed below their corresponding properties and consist of the getters and setters of the properties. Moving down from both the models each has its own router functions which sets up the REST API service. These functions do not contain any properties, but each individual method is a separate REST API call. These calls used a library within Node called mongoose that makes it easy to connect with MongoDB. The object model is setup using mongoose in order to input the data in to the correct connection. Setting up the mongoose object with the connection string to the database, within the router will then persist the data into the database.
@@ -113,4 +113,24 @@ The diagram below outlines the UML Class Diagram structure of the front end of t
 The diagram below outlines the class structure within swift for the Apple Watch application. The interface controller set up the view and the workout that is needed to record the heart rate of the user. The BMP of the user is then sent to the Heart Rate Service to be able to make an HTTPS request using URL Session library. 
 <p align="center">
   <img width="60%" src="Photo/UMLClass(Swift).jpg">
+</p>
+<h3>UML Sequence Diagram Apple oAuth</h3>
+The diagram below displays the flow of data that happens when a user request to login with ‘Sign in with Apple’ from the React application:
+<p align="center">
+  <img width="60%" src="Photo/Sequence(Login).png">
+</p>
+<h3>UML Sequence Diagram Frontend calling Backend</h3>
+The diagram shows the flow of data when the User is with Main component of the react application. The component will first grab all the heart rate information from by the user’s ID. Once the user changes the date it will trigger the onChange to get the updated data list. 
+<p align="center">
+  <img width="60%" src="Photo/Sequence(Date).png">
+</p>
+<h3>UML Sequence Diagram Apple Watch calling Backend</h3>
+The diagram below displays the sequence the data from the apple watch takes when a new heart rate needs to be saved within the database.
+<p align="center">
+  <img width="60%" src="Photo/UMLClass(Swift).jpg">
+</p>
+<h3>Deployment Diagram</h3>
+In the figure below outlines the deployment structure of both the web and Apple Watch application. The deployment will contain the Apple Watch Application being hosted on the Apple App Store, React will be deployed using Vercel in a docker container, Express will also be inside a docker container though hosted on Heroku, and the database will be deployed with MongoDB Atlas.
+<p align="center">
+  <img width="60%" src="Photo/Deployment.jpg">
 </p>
