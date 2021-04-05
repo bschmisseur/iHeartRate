@@ -57,3 +57,4 @@ The project consists of two main applications, an Apple Watch app and a website.
     WORDS
   </blockquote>
 </details>
+<h3>Applications Functionality</h3>
