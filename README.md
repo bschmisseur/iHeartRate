@@ -59,13 +59,16 @@ The project consists of two main applications, an Apple Watch app and a website.
 </details>
 <h3>Applications Functionality</h3>
 <b>Web Application</b>
+
   1. Sign in using the users Apple ID
   2. View heart rate data that was recorded by the users apple watch
   3. Have a table and graph displaying the data
   4. Have the average and last recored heart rate displayed to the user
   5. Select heart rates from a certian time period
   6. Download all heart rate information from the users account
+   
 <b>Apple Watch Application</b>
+
   1. Sign in using the users Apple ID
   2. Start recording heart rate data to the iHeartRate applicaiton
   3. Stop recording the heart rate information
