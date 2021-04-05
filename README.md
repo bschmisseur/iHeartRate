@@ -22,9 +22,9 @@
      9. [UML Sequence Diagram Apple Watch calling Backend](#AtoB)
      10. [Deployment Diagram](#Deployment)
   3.  [Final Product](#FinalProduct)
-     11. [Cloud Deployment](#CloudDeployment)
-     12. [New Technolgies](#NewTechnolgies)
-     13. [Challenges](#Challenges)
+      1.  Cloud Deployment](#CloudDeployment)
+      2.  [New Technolgies](#NewTechnolgies)
+      3.  [Challenges](#Challenges)
   4.  [Documentation](#Documentation)
    
 </div>
@@ -173,9 +173,9 @@ Throught the production of this application there was various different problem 
 
 <h1>Documentation</h3> <a name="Documentation"></a>
 
-Project Proposal -
+Project Proposal -<br/>
 [Click Here](Documentation/Project-Proposal.pdf)
-Project Requirements -
+Project Requirements -<br/>
 [Click Here](Documentation/Project-Requirements.pdf)
-Design Spec -
+Design Spec -<br/>
 [Click Here](Documentation/Design-Spec.pdf)
