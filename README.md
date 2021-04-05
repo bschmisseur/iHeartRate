@@ -22,7 +22,7 @@
      9. [UML Sequence Diagram Apple Watch calling Backend](#AtoB)
      10. [Deployment Diagram](#Deployment)
   3.  [Final Product](#FinalProduct)
-      1.  Cloud Deployment](#CloudDeployment)
+      1.  [Cloud Deployment](#CloudDeployment)
       2.  [New Technolgies](#NewTechnolgies)
       3.  [Challenges](#Challenges)
   4.  [Documentation](#Documentation)
