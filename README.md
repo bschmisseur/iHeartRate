@@ -172,8 +172,8 @@ Throught the production of this application there was various different problem 
 <h1>Documentation</h3> <a name="Documentation"></a>
 
 Project Proposal: 
-[Click Here]("Documentation/Project Proposal.pdf")
+[Click Here](Documentation/Project-Proposal.pdf)
 Project Requirements: 
-[Click Here]("Documentation/Project Requirements.pdf")
+[Click Here](Documentation/Project-Requirements.pdf)
 Design Spec: 
-[Click Here]("Documentation/Design Spec.pdf")
+[Click Here](Documentation/Design-Spec.pdf)
