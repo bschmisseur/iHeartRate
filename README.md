@@ -21,10 +21,11 @@
      8. [UML Sequence Diagram Frontend calling Backend](#FtoB)
      9. [UML Sequence Diagram Apple Watch calling Backend](#AtoB)
      10. [Deployment Diagram](#Deployment)
- 1.  [Final Product](#FinalProduct)
-     1.  [Cloud Deployment](#CloudDeployment)
-     2.  [New Technolgies](#NewTechnolgies)
-     3.  [Challenges](#Challenges)
+  3.  [Final Product](#FinalProduct)
+     11. [Cloud Deployment](#CloudDeployment)
+     12. [New Technolgies](#NewTechnolgies)
+     13. [Challenges](#Challenges)
+  4.  [Documentation](#Documentation)
    
 </div>
 <h1>Overview </h1> <a name="Overview"></a>
@@ -169,11 +170,12 @@ As well as best practices there was also DevOps Principles that were implemented
 Most all of the technologies that are used throughout this project were new or worked with very minimaly. Learning Swift helped with understanding IOS and WatchOS applications.  React helped created a light weight dynamic webpage that can be implmented in various different applications. Express was leanered in order to get a beter understand of Node and create a dedicated REST API application. Mongo offered a different expirence from a SQL database as there is not configuration needed for the collection within the database. The different cloud plaforms all offered various different features that were crutial to the deployment of the application. 
 <h3>Challenges</h3> <a name="Challenges"></a>
 Throught the production of this application there was various different problem that occured, some thorugh planning and other in the actual implementation of the application themselves. On of the bigges problems that was solved during planning was how to connect the user's apple watch to the user's account on the web application. This was fixed by the implmentation of signin with apple. This gave both applications the ability to have the same connection using Apple's oAuth services. 
+
 <h1>Documentation</h3> <a name="Documentation"></a>
 
-Project Proposal: 
+Project Proposal -
 [Click Here](Documentation/Project-Proposal.pdf)
-Project Requirements: 
+Project Requirements -
 [Click Here](Documentation/Project-Requirements.pdf)
-Design Spec: 
+Design Spec -
 [Click Here](Documentation/Design-Spec.pdf)
