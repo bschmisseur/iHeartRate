@@ -22,39 +22,39 @@ The project consists of two main applications, an Apple Watch app and a website.
   </blockquote>
   <b>Node JS</b>
   <blockquote>
-    Node JS is used inorder to setup servers for both the frontend and backend of the application. WORDS
+    Node JS is used inorder to setup servers for both the frontend and backend of the application. This specific server allowed both application to use some of the same librarys in order to set up both the applications.
   </blockquote>
   <b>JavaScript</b>
   <blockquote>
-    WORDS
+    JavaScript and the frameworks that are upon it were used in order to make the application dynamic and very light weight for the users to work with. 
   </blockquote>
   <b>Swift</b>
   <blockquote>
-    WORDS
+    Swift was used in order the Apple Watch application as it is the only language that can walk with WatchOS. 
   </blockquote>
   <b>Visual Studio Code</b>
   <blockquote>
-    WORDS
+    The specific code editor was used beucase of the extentions that are easily configured. There are many extentions to help build and deploy React, Express, and Docker applications.
   </blockquote>
   <b>xCode</b>
   <blockquote>
-    WORDS
+    Apple's xCode envirement as it also is the only platform to work with WatchOS and swift. This IDE also a very detialed GUI in order to setup the layout of the Apple Watch Application.
   </blockquote>
   <b>MongoDB</b>
   <blockquote>
-    WORDS
+    Rather the using a SQL database the applicaiton uses MongoDB. As React and Express primarly deal with JSON formated data to pass around Mongo offers a great platform in order to store and retrieve JSON formated data.
   </blockquote>
   <b>Heroku</b>
   <blockquote>
-    WORDS
+    Heroku is used to deploy the Express application that is within a Docker containers. This platform made the process really simple with the Heroku CLI in order to deploy the Docker Image created by the Express Application
   </blockquote>
   <b>Vercel</b>
   <blockquote>
-    WORDS
+    Vercel is a cloud platform that is the most compatable with react applications. It also offered a code pipeline service to be hooked up to GitHub or Bitbucket in order to implement CI/CD features.
   </blockquote>
   <b>Docker</b>
   <blockquote>
-    WORDS
+    Docker was used in order to put the Express Application in a container in order to simplify deployment. Using a docker image mean that if the application is able to run locally the image can run on any system that has Docker.
   </blockquote>
 </details>
 <h3>Applications Functionality</h3>
