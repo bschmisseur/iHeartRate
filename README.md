@@ -9,7 +9,7 @@ The project consists of two main applications, an Apple Watch app and a website.
 <p align="center">
   <img width="60%" src="Photo/Technologies.png">
 </p>
-<h3>Why These?d</h3>
+<h3>Why These?</h3>
 <details>
   <summary>Click to Expand</summary>
   <b>React JS</b>
