@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17701" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch44"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
+    </dependencies>
+    <scenes>
+        <!--Authentication-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Authentication" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="IHeartRate_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="59" alignment="center" text="Welcome to iHeartRate" textAlignment="center" numberOfLines="2" id="GUk-fo-QC5">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label width="136" height="52" alignment="center" verticalAlignment="center" text="Please Sign in" textAlignment="center" id="mnP-MR-hWg">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <authorizationAppleIDButton width="1" alignment="left" verticalAlignment="center" id="6d8-V1-Ri4">
+                            <connections>
+                                <action selector="pushAppleID" destination="AgC-eL-Hgc" id="3OW-2o-UKi"/>
+                            </connections>
+                        </authorizationAppleIDButton>
+                    </items>
+                    <connections>
+                        <outlet property="signIn" destination="6d8-V1-Ri4" id="ITQ-Z9-5GB"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="48.782608695652172" y="283.83928571428572"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="HKn-Zh-U2q">
+            <objects>
+                <controller identifier="Home" fullScreen="YES" id="igc-Px-zWP" customClass="InterfaceController" customModule="IHeartRate_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="80" alignment="center" verticalAlignment="center" text="Start recording to iHeartRate" textAlignment="center" numberOfLines="2" id="edc-Tl-eui"/>
+                        <button width="1" height="74" alignment="left" verticalAlignment="center" title="Start" id="p76-J7-6Rb">
+                            <accessibilityTraits key="accessibilityTraits" button="YES" updatesFrequently="YES"/>
+                            <color key="titleColor" red="0.39736437800000002" green="0.85676795240000003" blue="0.49013245109999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="backgroundColor" red="0.023760546" green="0.86927860980000005" blue="0.44267284870000001" alpha="0.42999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="startStop" destination="igc-Px-zWP" id="Jn6-EQ-EuB"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="startStopButton" destination="p76-J7-6Rb" id="cbv-Dh-EqC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="368.08695652173913" y="281.5625"/>
+        </scene>
+        <!--SendToWeb-->
+        <scene sceneID="WNx-BV-FXr">
+            <objects>
+                <controller identifier="SendToWeb" title="SendToWeb" id="e2E-C7-C82"/>
+            </objects>
+            <point key="canvasLocation" x="213" y="711"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="73" y="946"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="IHeartRate_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="401" y="1299"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="IHeartRate_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="401" y="946"/>
+        </scene>
+    </scenes>
+</document>
