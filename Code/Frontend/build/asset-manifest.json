@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.903e574e.chunk.css",
+    "main.js": "/static/js/main.24bb0f6c.chunk.js",
+    "main.js.map": "/static/js/main.24bb0f6c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b241f719.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b241f719.js.map",
+    "static/js/2.4485675b.chunk.js": "/static/js/2.4485675b.chunk.js",
+    "static/js/2.4485675b.chunk.js.map": "/static/js/2.4485675b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.903e574e.chunk.css.map": "/static/css/main.903e574e.chunk.css.map",
+    "static/js/2.4485675b.chunk.js.LICENSE.txt": "/static/js/2.4485675b.chunk.js.LICENSE.txt",
+    "static/media/AppleWatch.d006db85.jpg": "/static/media/AppleWatch.d006db85.jpg",
+    "static/media/Computer.14deefd3.jpg": "/static/media/Computer.14deefd3.jpg",
+    "static/media/Group.b0872c14.png": "/static/media/Group.b0872c14.png",
+    "static/media/SmallLogo.5c11e63c.png": "/static/media/SmallLogo.5c11e63c.png",
+    "static/media/Storage.bf59800e.jpg": "/static/media/Storage.bf59800e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b241f719.js",
+    "static/js/2.4485675b.chunk.js",
+    "static/css/main.903e574e.chunk.css",
+    "static/js/main.24bb0f6c.chunk.js"
+  ]
+}
